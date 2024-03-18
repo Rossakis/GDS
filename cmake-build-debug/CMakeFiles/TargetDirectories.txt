@@ -1,0 +1,4 @@
+C:/Users/GiorgosDev/Documents/GitHub/GDS/cmake-build-debug/CMakeFiles/GDS.dir
+C:/Users/GiorgosDev/Documents/GitHub/GDS/cmake-build-debug/CMakeFiles/main.dir
+C:/Users/GiorgosDev/Documents/GitHub/GDS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/GiorgosDev/Documents/GitHub/GDS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
