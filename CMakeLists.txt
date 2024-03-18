@@ -9,7 +9,7 @@ include_directories(include)
 # Add source files
 set(SOURCES
         src/main.cpp
-        include/List.cpp
+        src/List.cpp
 )
 
 # Create MathG library
