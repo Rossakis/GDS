@@ -10,6 +10,8 @@ include_directories(include)
 set(SOURCES
         src/main.cpp
         src/List.cpp
+        src/Node.cpp
+        include/Node.h
 )
 
 # Create MathG library

@@ -8,7 +8,7 @@
 #include <iostream>
 //TODO: Finish the dynamic list
 
-class List {
+class List{
 private:
     int _size;
 

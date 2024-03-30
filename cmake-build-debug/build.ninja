@@ -56,8 +56,15 @@ build CMakeFiles/GDS.dir/src/main.cpp.obj: CXX_COMPILER__GDS_unscanned_Debug C$:
   OBJECT_DIR = CMakeFiles\GDS.dir
   OBJECT_FILE_DIR = CMakeFiles\GDS.dir\src
 
-build CMakeFiles/GDS.dir/include/List.cpp.obj: CXX_COMPILER__GDS_unscanned_Debug C$:/Users/GiorgosDev/Documents/GitHub/GDS/include/List.cpp || cmake_object_order_depends_target_GDS
-  DEP_FILE = CMakeFiles\GDS.dir\include\List.cpp.obj.d
+build CMakeFiles/GDS.dir/src/List.cpp.obj: CXX_COMPILER__GDS_unscanned_Debug C$:/Users/GiorgosDev/Documents/GitHub/GDS/src/List.cpp || cmake_object_order_depends_target_GDS
+  DEP_FILE = CMakeFiles\GDS.dir\src\List.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/GiorgosDev/Documents/GitHub/GDS/include
+  OBJECT_DIR = CMakeFiles\GDS.dir
+  OBJECT_FILE_DIR = CMakeFiles\GDS.dir\src
+
+build CMakeFiles/GDS.dir/include/Node.cpp.obj: CXX_COMPILER__GDS_unscanned_Debug C$:/Users/GiorgosDev/Documents/GitHub/GDS/include/Node.cpp || cmake_object_order_depends_target_GDS
+  DEP_FILE = CMakeFiles\GDS.dir\include\Node.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/GiorgosDev/Documents/GitHub/GDS/include
   OBJECT_DIR = CMakeFiles\GDS.dir
@@ -71,7 +78,7 @@ build CMakeFiles/GDS.dir/include/List.cpp.obj: CXX_COMPILER__GDS_unscanned_Debug
 #############################################
 # Link the static library libGDS.a
 
-build libGDS.a: CXX_STATIC_LIBRARY_LINKER__GDS_Debug CMakeFiles/GDS.dir/src/main.cpp.obj CMakeFiles/GDS.dir/include/List.cpp.obj
+build libGDS.a: CXX_STATIC_LIBRARY_LINKER__GDS_Debug CMakeFiles/GDS.dir/src/main.cpp.obj CMakeFiles/GDS.dir/src/List.cpp.obj CMakeFiles/GDS.dir/include/Node.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\GDS.dir
   POST_BUILD = cd .
